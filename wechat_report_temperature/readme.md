@@ -1,5 +1,10 @@
 ## 企业微信 每日健康打卡
 
+[博客 https://blog.nanshaobit.top/105](https://blog.nanshaobit.top/105)
+### 仓库
++ [GitHub](https://github.com/nanshaobit/cczu_script/tree/master/wechat_report_temperature)
++ [Gitee](https://gitee.com/nanshaobit/cczu_script/tree/master/wechat_report_temperature)
+
 > UID 需要抓包获得，也可通过查询当日脚本遍历得出(不推荐)。
 > 查询当日脚本中， `"deptCode":"X","schoolYear":"X"` 代表 班号、年级 同一个班在一起，按学号升序。
 
@@ -50,4 +55,3 @@
 [单人脚本](one.py) 可结合多人脚本的随机温度、随机经纬度方法使用
 
 [查询结果脚本](query_result.py) 查询当日上报结果
-
