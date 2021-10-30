@@ -19,6 +19,7 @@
 ``` json
 // 除有注释外，其他内容正常情况不需要修改。
 {
+    "vaccinesState": "2",   // 2021-10-30 新增 疫苗接种情况
     "healthState": "1",
     "healthRemark": "",
     "temperature": "36.4", // 体温 建议在区间内随机

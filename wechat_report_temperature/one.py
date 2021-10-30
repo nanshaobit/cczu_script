@@ -20,6 +20,7 @@ headers = {
 }
 
 data = {
+    "vaccinesState": "2",   # 2021-10-30 新增 疫苗接种情况
     "healthState": "1",
     "healthRemark": "",
     "temperature": "36.4",  # 温度
