@@ -20,6 +20,7 @@ class HealthReport:
             "Referer": "http://yuyue.cczu.edu.cn:8090/"
         }
 
+        # 数据接口已于(2021-11-06)过时， 请根据readme中的参数填写。
         self.data = {
             "vaccinesState": "2",   # 2021-10-30 新增 疫苗接种情况
             "healthState": "1",
