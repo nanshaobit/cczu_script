@@ -18,7 +18,9 @@
 + data:
 ``` json
 // 2021-11-06 日 更新
-
+// 两个版本 
+// http://yuyue.cczu.edu.cn:8090/healthCode 
+// http://yuyue.cczu.edu.cn:8090/healthCodeStudent 
 {
     "vaccinesState": "2",   // 2021-10-30 新增 未显示 疫苗接种情况 /1否/2是/
     
@@ -37,6 +39,15 @@
     "isAbroadGat": "1", // 境外人员接触  /1 否/ other 其他/
     "abroadGatRemark": "", // // 境外人员接触备注 (境外人员接触 other时必填)
     
+    "address": "江苏省常州市武进区", // 地址
+    "addressShen": "江苏省", // 省
+    "addressShi": "常州市",  // 市
+    "addressXian": "武进区", // 县/区
+    "coordinate": "119.83168806623213,31.71513305947064", // 经纬度定位 此为西太湖校区 建议在区间内随机
+    "userId": "uid", //用户id(localStorage.getItem('userid')) uid 抓包可得， 也可通过查询接口遍历， 根据班号推断（id自增，班级内按学号升序）
+    "userJob": "4" // 填报用户身份(localStorage.getItem('job') 0.其他、1.教师、2.门卫、3.研究生、4.本科生)
+    
+    // 以下参数 http://yuyue.cczu.edu.cn:8090/healthCodeStudent 版本有 start
     "isInSchool": "1", // 是否在校 /1 是/ 0 否/
     "campus":"",  // 校区选择 (在校为1必填) ['科教城校区', '西太湖校区']
     
@@ -48,13 +59,8 @@
     "sfz": "", // 身份证号
     "dh": "" // 手机号
     
-    "address": "江苏省常州市武进区", // 地址
-    "addressShen": "江苏省", // 省
-    "addressShi": "常州市",  // 市
-    "addressXian": "武进区", // 县/区
-    "coordinate": "119.83168806623213,31.71513305947064", // 经纬度定位 此为西太湖校区 建议在区间内随机
-    "userId": "uid", //用户id(localStorage.getItem('userid')) uid 抓包可得， 也可通过查询接口遍历， 根据班号推断（id自增，班级内按学号升序）
-    "userJob": "4" // 填报用户身份(localStorage.getItem('job') 0.其他、1.教师、2.门卫、3.研究生、4.本科生)
+    // 以下参数 http://yuyue.cczu.edu.cn:8090/healthCodeStudent 版本有 end
+    
 }
 
 ```
