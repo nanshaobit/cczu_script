@@ -47,7 +47,7 @@
     "userId": "uid", //用户id(localStorage.getItem('userid')) uid 抓包可得， 也可通过查询接口遍历， 根据班号推断（id自增，班级内按学号升序）
     "userJob": "4" // 填报用户身份(localStorage.getItem('job') 0.其他、1.教师、2.门卫、3.研究生、4.本科生)
     
-    // 以下参数 http://yuyue.cczu.edu.cn:8090/healthCodeStudent 版本有 start
+    // 以下参数 http://yuyue.cczu.edu.cn:8090/healthCode 版本有 start
     "isInSchool": "1", // 是否在校 /1 是/ 0 否/
     "campus":"",  // 校区选择 (在校为1必填) ['科教城校区', '西太湖校区']
     
@@ -59,7 +59,7 @@
     "sfz": "", // 身份证号
     "dh": "" // 手机号
     
-    // 以下参数 http://yuyue.cczu.edu.cn:8090/healthCodeStudent 版本有 end
+    // 以下参数 http://yuyue.cczu.edu.cn:8090/healthCode 版本有 end
     
 }
 
