@@ -7,7 +7,8 @@
 
 > account 为用户id， 可抓包获得（随机也可，存在就行）。
 > aid 应用id 两个校区不同
-
+### 其他所有接口汇总：
+https://blog.nanshaobit.top/104
 ### 获取楼栋接口
 
 + url: `http://wxxy.cczu.edu.cn/wechat/callinterface/queryElecBuilding.html`

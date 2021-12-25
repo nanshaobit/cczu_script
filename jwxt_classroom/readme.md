@@ -5,6 +5,9 @@
 + [GitHub](https://github.com/nanshaobit/cczu_script/tree/master/jwxt_classroom)
 + [Gitee](https://gitee.com/nanshaobit/cczu_script/tree/master/jwxt_classroom)
 
+### 其他所有接口汇总：
+https://blog.nanshaobit.top/104
+
 ### 教室状态查询
 > 此接口为教室门口的二维码提取而得， 崩 乃日常。
 

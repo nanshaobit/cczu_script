@@ -5,6 +5,9 @@
 + [GitHub](https://github.com/nanshaobit/cczu_script/tree/master/wechat_report_temperature)
 + [Gitee](https://gitee.com/nanshaobit/cczu_script/tree/master/wechat_report_temperature)
 
+### 其他所有接口汇总：
+https://blog.nanshaobit.top/104
+
 > UID 需要抓包获得，也可通过查询当日脚本遍历得出(不推荐)。
 > 查询当日脚本中， `"deptCode":"X","schoolYear":"X"` 代表 班号、年级 同一个班在一起，按学号升序。
 
